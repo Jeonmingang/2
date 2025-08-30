@@ -1,0 +1,23 @@
+gui:
+  upgrades:
+    title: "섬 업그레이드"
+    size:
+      slot: 11
+      material: "MAP"
+      name: "&6섬 크기"
+      lore:
+        - "&7현재 반지름: &e{current}"
+        - "&7다음 반지름: &a{next}"
+        - "&7필요 레벨: &e{needLevel}"
+        - "&7비용: &e{cost}"
+        - "&f클릭: 업그레이드"
+    team:
+      slot: 15
+      material: "PLAYER_HEAD"
+      name: "&6팀원 수"
+      lore:
+        - "&7현재 제한: &e{current}"
+        - "&7다음 제한: &a{next}"
+        - "&7필요 레벨: &e{needLevel}"
+        - "&7비용: &e{cost}"
+        - "&f클릭: 업그레이드"

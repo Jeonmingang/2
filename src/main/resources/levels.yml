@@ -1,0 +1,9 @@
+leveling:
+  # Either use a flat xp-per-level (linear), OR define an xp-table below (cumulative XP per level).
+  base-xp: 1000
+  growth-percent: 1.5
+  max-level: 200  # 생성 테이블 최대 레벨
+  # xp-table:
+  #   "1": 500
+  #   "2": 1500
+  #   "3": 3000

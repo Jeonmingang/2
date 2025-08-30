@@ -1,0 +1,34 @@
+messages:
+  prefix: "&7[&b섬&7]&r "
+  no-permission: "&c권한이 없습니다."
+  players-only: "플레이어만 사용 가능합니다."
+  reload-done: "&a리로드 완료."
+  island-required: "&c섬이 없습니다."
+  upgrade-none: "&c더 이상 업그레이드가 없습니다."
+  upgrade-need-level: "&c필요 레벨: {level}"
+  upgrade-no-money: "&c잔액 부족: {cost}"
+  upgrade-pay-failed: "&c결제 실패"
+  upgrade-size-success: "&a섬 크기 업그레이드! 반지름: &e{radius}"
+  upgrade-team-success: "&a팀원 수 제한 업그레이드! &e{before} &7→ &a{after} &7(비용: {cost})"
+  level-up: "&b[섬 레벨] &aLv.{newLevel} &7(+{xp}xp)"
+  rank-top-title: "&b-- 섬 랭킹 Top {n} --"
+  rank-line: "&e#{rank} &f{name} &7- &aLv.{level} &7({xp} xp)"
+  rank-me: "&b내 섬 레벨: &aLv.{level} &7({xp} / {next} xp)"
+  help:
+    - "&b/섬 업그레이드 &7- 업그레이드 GUI"
+    - "&b/섬 랭킹 [상위|나|재집계] &7- 섬 랭킹"
+    - "&b/섬 레벨 &7- 내 섬 레벨/경험치"
+    - "&b/섬 리로드 &7- 설정 리로드 (관리자)"
+
+
+rank-display:
+  nametag:
+    enabled: true
+    max: 100
+    format: "&7[ &b섬 랭킹 &e<rank> &7] "
+  chat:
+    enabled: true
+    format: "&7[ &b섬 랭킹 &e<rank> &7] "
+
+
+rank-me-detail: "&7다음 레벨까지: &e{remain}xp &7(필요 {need}xp, 진행 {percent}%)"

@@ -1,0 +1,26 @@
+island-size:
+  default: 100           # 기본 반지름
+  tiers:
+    "1":
+      required-level: 10
+      radius: 125
+      cost: 10000
+    "2":
+      required-level: 20
+      radius: 150
+      cost: 20000
+    "3":
+      required-level: 35
+      radius: 200
+      cost: 40000
+
+
+team-size:
+  default: 4
+  tiers:
+    "1": { required-level: 10, members: 6
+      cost: 15000 }
+    "2": { required-level: 20, members: 8
+      cost: 30000 }
+    "3": { required-level: 35, members: 10
+      cost: 60000 }

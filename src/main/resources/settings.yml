@@ -1,0 +1,7 @@
+visual:
+  border:
+    enabled: true
+    # particle step: 작을수록 촘촘 (성능 고려)
+    step: 1.5
+    # 표시 주기(틱). 10틱=0.5초
+    period-ticks: 10

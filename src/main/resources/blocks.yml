@@ -1,0 +1,28 @@
+# Block XP table (namespaced). Only listed blocks grant XP.
+# Add or change freely. Examples include Pixelmon blocks.
+blocks:
+  minecraft:stone: 1
+  minecraft:cobblestone: 1
+  minecraft:iron_block: 20
+  minecraft:diamond_block: 50
+  minecraft:emerald_block: 40
+  minecraft:gold_block: 15
+  minecraft:coal_block: 5
+  pixelmon:pc: 80
+  pixelmon:healer: 60
+  pixelmon:anvil: 15
+
+
+# 패턴 지원: prefix / contains / regex
+patterns:
+  prefix:
+    - ["pixelmon:bauxite_", 25]
+  contains:
+    - ["pixelmon:ore", 20]
+  regex:
+    - ["^pixelmon:.*_ore$", 20]
+
+# 개별 픽셀몬 블럭
+  # 키우미집(랜치 블럭) 예시 - 서버 버전에 따라 명칭이 다를 수 있음
+blocks:
+  pixelmon:ranch_block: 120

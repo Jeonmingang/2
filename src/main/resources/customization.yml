@@ -1,0 +1,5 @@
+messages:
+  prefix: "&7[&bSSB&7]&r "
+  upgraded: "&a섬 크기 업그레이드! 반지름: &e{radius}"
+  welcome: "&a환영합니다! 섬 경계가 표시됩니다."
+  reloaded: "&a설정 리로드 완료."

@@ -1,0 +1,17 @@
+name: SamSkyBridge
+version: 0.2.0
+main: com.signition.samskybridge.Main
+api-version: 1.16
+author: signition
+depend:
+  - BentoBox
+softdepend:
+  - Vault
+commands:
+  island:
+    description: 섬 관련 명령어
+    usage: /섬 <도움말|업그레이드|랭킹|레벨|리로드>
+    aliases: [섬]
+permissions:
+  samskybridge.admin:
+    default: op

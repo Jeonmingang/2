@@ -1,0 +1,8 @@
+storage:
+  type: "yaml"              # yaml | sqlite (yaml이 기본)
+  autosave-seconds: 60      # 주기 저장(초)
+  backup-on-shutdown: true  # 종료 시 백업 생성
+settings:
+  enable-worlds: []         # 비우면 모든 월드 허용
+  ignore-creative: true     # 크리에이티브 설치는 XP 미지급
+  xp-per-tick-cap: 200      # 섬당 틱당 XP 상한 (성능 보호)
